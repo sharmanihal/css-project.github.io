@@ -1,0 +1,317 @@
+body {
+    background: black;
+    margin-top: 20px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    color: rgb(236, 235, 235);
+    font-size: 20px;
+}
+
+.item {
+    color: rgb(211, 200, 200);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 950px;
+
+}
+
+.get-in-touch {
+    background: yellow;
+    padding: 10px;
+
+}
+
+.content {
+    color: rgb(243, 237, 237);
+}
+
+.content p {
+    color: rgb(201, 200, 200);
+}
+
+.content h2 {
+    line-height: 40px;
+}
+
+.get-in-touch-again {
+    color: black;
+    background: yellow;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.examples {
+    color: white;
+}
+
+.examples p {
+    color: rgb(192, 189, 189);
+}
+
+.description h2 {
+    color: white;
+    font-size: 30px
+}
+
+.description p {
+    color: rgb(204, 202, 202);
+    letter-spacing: 1px;
+}
+
+.description {
+    background-color: rgb(17, 17, 17);
+    padding: 40px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 17, 17);
+}
+
+.make-flex {
+    display: flex;
+}
+
+#social1 {
+    margin-right: 10px
+}
+
+#social2 {
+    margin-right: 10px
+}
+
+#social3 {
+    margin-right: 10px;
+}
+
+@media screen and (min-width:921px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .item {
+        margin-left: 30px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .content h2 {
+        font-style: bold;
+        font-size: 30px;
+
+    }
+
+    .content {
+        width: 400px;
+        margin: 40px;
+    }
+
+    .logos1,
+    .logos2,
+    .logos3 {
+        display: flex;
+        margin-top: 80px;
+        flex-wrap: wrap;
+
+    }
+
+    .logo2,
+    .logo4,
+    .logo6 {
+        margin-left: 40px
+    }
+
+    .companies {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .examples {
+        display: flex;
+        justify-content: center;
+    }
+
+    .example1 img,
+    .example2 img {
+        width: 100%;
+        height: 60%
+    }
+
+    .example1 {
+        margin-right: 15px
+    }
+
+    .example2 {
+        margin-left: 15px
+    }
+
+    .description {
+        display: flex;
+
+    }
+
+    .desc1 {
+        margin-right: 20px
+    }
+
+    .desc2 {
+        margin-left: 20px
+    }
+
+}
+
+@media screen and (min-width: 531px) and (max-width: 920px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .hamburger {
+        display: static;
+        margin-right: 5%;
+    }
+
+    .get-in-touch {
+        display: none;
+    }
+
+    .content h2 {
+        font-style: bold;
+        font-size: 30px;
+    }
+
+    .content {
+
+        margin: 40px;
+    }
+
+    .companies {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logos1,
+    .logos2,
+    .logos3 {
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+
+    .logo1 {
+        margin-left: 25px
+    }
+
+    .example2 {
+        margin-top: 60px
+    }
+
+    .example1 img,
+    .example2 img {
+        width: 95%;
+        height: 60%;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 530px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .hamburger {
+        display: static;
+        margin-right: 5%;
+    }
+
+    .get-in-touch {
+        display: none;
+    }
+
+    .content h2 {
+        font-style: bold;
+        font-size: 30px;
+    }
+
+    .content {
+        margin: 40px;
+    }
+
+    .companies {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .logos1 {
+        display: flex;
+        order: 3;
+        flex-basis: 500px;
+        justify-content: center;
+    }
+
+    .logos2 {
+        display: flex;
+        order: 2;
+        flex-basis: 500px;
+        justify-content: center;
+    }
+
+    .logos3 {
+        display: flex;
+        order: 1;
+        flex-basis: 500px;
+        justify-content: center;
+    }
+
+    .logo2,
+    .logo4,
+    .logo6 {
+        margin-left: 20px
+    }
+
+    .example2 {
+        margin-top: 60px
+    }
+
+    .example1 img,
+    .example2 img {
+        width: 95%;
+        height: 60%;
+    }
+
+
+}
